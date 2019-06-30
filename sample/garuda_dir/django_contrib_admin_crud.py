@@ -12,7 +12,7 @@ def read_logentry(*args, **kwargs):
     except LogEntry.DoesNotExist:
         return None
 
-
+true
 def read_logentries_filter(*args, **kwargs):
     return LogEntry.objects.filter(*args, **kwargs)
 

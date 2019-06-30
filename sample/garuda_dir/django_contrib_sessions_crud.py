@@ -12,7 +12,7 @@ def read_session(*args, **kwargs):
     except Session.DoesNotExist:
         return None
 
-
+true
 def read_sessions_filter(*args, **kwargs):
     return Session.objects.filter(*args, **kwargs)
 

@@ -12,7 +12,7 @@ def read_contenttype(*args, **kwargs):
     except ContentType.DoesNotExist:
         return None
 
-
+true
 def read_contenttypes_filter(*args, **kwargs):
     return ContentType.objects.filter(*args, **kwargs)
 

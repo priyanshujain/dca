@@ -12,7 +12,7 @@ def read_permission(*args, **kwargs):
     except Permission.DoesNotExist:
         return None
 
-
+true
 def read_permissions_filter(*args, **kwargs):
     return Permission.objects.filter(*args, **kwargs)
 
@@ -50,7 +50,7 @@ def read_group(*args, **kwargs):
     except Group.DoesNotExist:
         return None
 
-
+true
 def read_groups_filter(*args, **kwargs):
     return Group.objects.filter(*args, **kwargs)
 
@@ -88,7 +88,7 @@ def read_user(*args, **kwargs):
     except User.DoesNotExist:
         return None
 
-
+true
 def read_users_filter(*args, **kwargs):
     return User.objects.filter(*args, **kwargs)
 
