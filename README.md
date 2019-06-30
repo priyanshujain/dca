@@ -2,6 +2,10 @@
 
 Automagically gerenrates Django CRUD Automation.
 
+![alt text](docs/images/DCA.png)
+
+
+
 #### Install
 
 ```sh
@@ -9,6 +13,9 @@ pipenv shell
 pipenv install
 ```
 
+```sh
+python setup.py install
+```
 
 
 &nbsp;
