@@ -38,8 +38,8 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
 
-    # Garuda
-    'garuda',
+    # dca
+    'dca',
 
     # Private Apps
     'sample.core',
@@ -126,6 +126,12 @@ USE_TZ = True
 STATIC_URL = '/static/'
 
 
-# Garuda Configs
+# dca Configs
 
-GARUDA_CHOICES = 'sample.core.choices'
+DCA_CHOICES = 'sample.core.choices'
+
+DCA_APPS = [
+    'sample.core'
+]
+
+DCA_DIR = f'{BASE_DIR}/sample'
